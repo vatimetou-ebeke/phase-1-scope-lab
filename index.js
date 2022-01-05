@@ -1,19 +1,19 @@
 // Write your solution in this file!
 var customerName="bob"
 function  upperCaseCustomerName(){
-return customerName.toUpperCase()
+return customerName=customerName.toUpperCase()
  
 }
 
- var bestCustomer ="maybe bob";
+
 
 function setBestCustomer(){
     
-    return bestCustomer
+    bestCustomer="not bob"
 }
 
 function overwriteBestCustomer(){
-    const bestCustomer="marry"
+     bestCustomer="maybe bob"
     return bestCustomer
 }
 
